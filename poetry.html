@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Book Worm - Το site του βιβλιοφάγου</title>
+
+<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+
+<script language="JavaScript1.2">     
+   
+  function date_time(id)
+{
+        date = new Date;
+        year = date.getFullYear();
+        month = date.getMonth();
+        months = new Array('Ιανουαρίου', 'Φεβρουαρίου', 'Μαρτίου', 'Απριλίου', 'Μαΐου', 'Ιουνίου', 'Ιουλίου', 'Αυγούστου', 'Σεπτεμβρίου', 'Οκτωβρίου', 'Νοεμβρίου', 'Δεκεμβρίου');
+        d = date.getDate();
+        day = date.getDay();
+        days = new Array('Κυριακή', 'Δευτέρα', 'Τρίτη', 'Τετάρτη', 'Πέμπτη', 'Παρασκευή', 'Σάββατο');
+        h = date.getHours();
+        if(h<10)
+        {
+                h = "0"+h;
+        }
+        m = date.getMinutes();
+        if(m<10)
+        {
+                m = "0"+m;
+        }
+        s = date.getSeconds();
+        if(s<10)
+        {
+                s = "0"+s;
+        }
+        result =days[day]+' '+d+' '+months[month]+' '+year+'  '+h+':'+m+':'+s;
+        document.getElementById(id).innerHTML = result;
+        setTimeout('date_time("'+id+'");','1000');
+        return true;
+}
+     
+   </script> 
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" href="layout.css" type="text/css" />
+</head>
+
+<body>
+
+<div id="header" align="center">
+    	<div id="menu" >
+        	<ul>                                                                       
+            <li><a href="home.html">Αρχική</a></li>
+            <li><a href="categories.html">Κατηγορίες</a></li>
+            <li><a href="new.html">Νέες Κυκλοφορίες</a></li>
+            <li><a href="suggestions.html">Προτάσεις</a></li>
+            <li><a href="100books.html">10 Βιβλία που πρέπει να διαβάσετε</a></li>
+            </u1>
+            
+            
+            
+        </div>
+</div>
+
+<div id="main">
+	<div id="left" align="left">
+    
+    <div id="cat_title">
+    <h> Ποίηση</h>
+    </div>  	
+        
+        
+        <div id="books11"><a href="gwgou.html"><img src="images/books/gwgou.jpg" /></a> </div>
+    <div id="books12"><a href="mono.html"><img src="images/books/mono.jpg" /></a></div>
+    <div id="books13"><a href="xrist.html"><img src="images/books/xrist.jpg" /></a></div>
+    <div id="books14"><a href="poi.html"><img src="images/books/poi.jpg" /></a></div>
+    <div id="books15"><a href="ekt.html"><img src="images/books/ekt.jpg" /></a></div>
+    
+    <div id="books21"><a href="dim.html"><img src="images/books/dim.jpg" /></a> </div>
+    <div id="books22"><a href="rav.html"><img src="images/books/rav.jpg" /></a></div>
+    <div id="books23"><a href="neruda.html"><img src="images/books/neruda.jpg" /></a></div>
+    <div id="books24"><a href="ists.html"><img src="images/books/ists.jpg" /></a></div>
+    <div id="books25"><a href="tl.html"><img src="images/books/tl.jpg" /></a></div>
+        
+        
+         
+  </div>
+    <div id="right">
+    	<h2><b> Προτάσεις </b></h2>
+        <div id="prom1">
+        	<a href="ies.html"><img src="images/ies.jpg" /></a>
+        </div>
+        <div id="prom2"><a href="nef.html"><img src="images/nef.jpg" /></a>
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+
+<div id="logo"><a href="home.html"><img src="images/logo.gif" /></a></div>
+
+<span id="date_time"></span>
+            <script type="text/javascript">window.onload = date_time('date_time');</script>
+
+<div id="comm"><a href="mailto:antoveli@ee.duth.gr"><p>Επικοινωνία</p></a></div>
+
+</div>
+
+</body>
+</html>

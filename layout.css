@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+h{
+	font-size:46px;
+	font-weight:bold;
+	font-style:italic;
+	text-shadow: 1px 1px #291710;
+}
+
+#cat_title{
+	position:relative;
+	top:25px;
+	left:70px
+}
+
+#books11{
+	left:60px;
+	position:absolute;
+	width:140px;
+	height:192px;
+	top:145px;
+	background-color:#3FC;
+}
+
+#books12{
+	position:absolute;
+	width:140px;
+	height:192px;
+	top:145px;
+	left:260px;
+	background-color:#3FC;
+}
+
+#books13{
+	position:absolute;
+	width:140px;
+	height:192px;
+	top:145px;
+	left:460px;
+	background-color:#3FC;
+}
+
+#books14{
+	position:absolute;
+	width:140px;
+	height:192px;
+	top:145px;
+	left:660px;
+	background-color:#3FC;
+}
+
+#books15{
+	position:absolute;
+	width:140px;
+	height:192px;
+	top:145px;
+	left:860px;
+	background-color:#3FC;
+}
+
+#books21{
+	left:60px;
+	position:absolute;
+	width:140px;
+	height:192px;
+	top:453px;
+	background-color:#3FC;
+}
+
+#books22{
+	position:absolute;
+	width:140px;
+	height:192px;
+	top:453px;
+	left:260px;
+	background-color:#3FC;
+}
+
+#books23{
+	position:absolute;
+	width:140px;
+	height:192px;
+	top:453px;
+	left:460px;
+	background-color:#3FC;
+}
+
+#books24{
+	position:absolute;
+	width:140px;
+	height:192px;
+	top:453px;
+	left:660px;
+	background-color:#3FC;
+}
+
+#books25{
+	position:absolute;
+	width:140px;
+	height:192px;
+	top:453px;
+	left:860px;
+	background-color:#3FC;
+}

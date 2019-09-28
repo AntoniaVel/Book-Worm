@@ -1,0 +1,282 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#ebead8;
+	color:#361f17;
+}
+
+/*-----------------------Κεφαλίδα---------*/
+
+#header{
+	width: 100%;
+	height: 180px;
+	padding:0 0 0 0;
+	left:0px;
+	top:0px;
+	background-image:url(images/header.jpg);
+	position:absolute;
+}
+
+#top{
+	width:100%;
+	height:100%;
+	padding:0 0 0 0;
+	background-color:#000;
+	position:relative;
+}
+
+#menu{
+	height:27px;;
+	width:660px;
+	padding: 0 0 0 0;
+	bottom:16px;
+	left:170px;
+	position:absolute;
+}
+
+#menu ul li{
+	display:inline;
+	padding:0px;
+	height:27px;
+}
+
+#menu ul li a{
+	height:27px;
+	display:block;
+	padding:0px 10px 0 10px;
+	margin:0 4px 0 4px;
+	_margin:0 2px 0 2px;
+	float:left;
+	text-decoration:none;
+	text-align:center;
+	color:#fff;
+	font-size:13px;
+	line-height:25px;
+}
+
+#menu ul li.selected a{
+	color:#f7a849;
+}
+
+#menu ul li a:hover{
+	color:#f7a849;
+}
+
+/*-----------------------Κυρίως Σελίδα---------*/
+
+#home_main{
+	width:100%;
+	height:600px;
+	padding: 0 0 0 0;
+	left:0px;
+	top:180px;
+	position:absolute;
+}
+
+#main{
+	width:100%;
+	height:700px;
+	padding: 0 0 0 0;
+	left:0px;
+	top:180px;
+	position:absolute;
+}
+
+#left{
+	width:80%;
+	height:100%;
+	padding:0 0 0 0;
+	float:left;
+}
+
+#cat{
+	width:800px;
+	height:497px;
+	background-image:url(images/categories.jpg);
+	position:relative;
+	top:60px;
+}
+
+#cat u1{
+	position:relative;
+	top:30px;
+	left:-180px;
+	list-style:none;
+}
+
+#cat u1 li a{
+	font-size:24px;
+	display:block;
+	padding: 10px 0px 15px 0px;
+	line-height:25px;
+	font-style:italic;
+	text-decoration:none;
+	color:#361f17;
+}
+
+#cat u1 li a:hover{
+	font-size:24px;
+	display:block;
+	padding: 10px 0px 15px 0px;
+	line-height:25px;
+	font-style:italic;
+	text-decoration:none;
+	color:#ac8037;
+}
+
+#right{
+	float:left;
+	width:20%;
+	height:100%;
+	background-color:#d5ccbb;
+	padding:0 0 0 0;
+	text-align:center;
+}
+
+#prom1{
+	position:relative;
+	left:23%;
+	width:160px;
+	height:223px;
+}
+
+#prom2{
+	position:relative;
+	top:50px;
+	left:23%;
+	width:160px;
+	height:223px;
+}
+
+/*-----------------------Βιβλιοθήκη---------*/
+#bookcase{
+	position:relative;
+	top:50px;
+	background-image:url(images/bookcase.jpg);
+	width:1070px;
+	height:439px;
+}
+
+#book11{
+	left:60px;
+	position:absolute;
+	width:100px;
+	height:152px;
+	top:65px;
+}
+
+#book12{
+	position:absolute;
+	width:100px;
+	height:152px;
+	top:65px;
+	left:260px;
+}
+
+#book13{
+	position:absolute;
+	width:100px;
+	height:152px;
+	top:65px;
+	left:460px;
+}
+
+#book14{
+	position:absolute;
+	width:100px;
+	height:152px;
+	top:65px;
+	left:660px;
+}
+
+#book15{
+	position:absolute;
+	width:100px;
+	height:152px;
+	top:65px;
+	left:860px;
+}
+
+#book21{
+	left:60px;
+	position:absolute;
+	width:100px;
+	height:143px;
+	top:243px;
+}
+
+#book22{
+	position:absolute;
+	width:100px;
+	height:143px;
+	top:243px;
+	left:260px;
+}
+
+#book23{
+	position:absolute;
+	width:100px;
+	height:143px;
+	top:243px;
+	left:460px;
+}
+
+#book24{
+	position:absolute;
+	width:100px;
+	height:143px;
+	top:243px;
+	left:660px;
+}
+
+#book25{
+	position:absolute;
+	width:100px;
+	height:143px;
+	top:243px;
+	left:860px;
+}
+
+/*-----------------------Υποσέλιδο---------*/
+
+#footer{ 
+	width:100%;
+	height:70px;
+	padding: 0 0 0 0;
+	left:0px;
+	top:880px;
+	background-image:url(images/footer_bg.gif);
+	color:#FFF;
+	position:absolute;
+}
+
+#logo{
+	width:168px;
+	height:40px;
+	position:relative;
+	left:0px;
+	top:15px;
+}
+
+span{
+position:relative;
+left:80%;
+}
+
+#comm{
+	position:relative;
+	left:83%;
+	bottom:65px;
+	width:90px;
+	height:20px;
+}
+
+#comm a{
+	text-decoration:none;
+	color:#FFF;
+}
+
+#comm a:hover{
+	color:#f7a849;
+}
